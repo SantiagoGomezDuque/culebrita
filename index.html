@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style.css">
+    <title>Santiago Gomez</title>
+</head>
+<body>
+    <div id="controls">
+        <button onclick="resetGame()">Reintentar</button>
+        <button onclick="saveProgress()">Guardar Progreso</button>
+        <button onclick="loadProgress()">Cargar Progreso</button>
+    </div>
+    <canvas id="gameCanvas" width="600" height="600"></canvas>
+    <div id="scoreboard">
+        <span id="score">Score: 0</span>
+        <span id="level">Nivel: 1</span>
+    </div>
+    <script src="snake.js"></script>
+</body>
+</html>
